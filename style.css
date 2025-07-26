@@ -1,0 +1,232 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Arial', sans-serif;
+  background: #f9f9f9;
+  color: #333;
+}
+
+header {
+  background-color: #0077cc;
+  color: white;
+  padding: 20px;
+  text-align: center;
+}
+
+header h1 {
+  font-size: 22px;
+  margin-bottom: 10px;
+}
+
+nav {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 10px;
+}
+
+nav a {
+  color: white;
+  text-decoration: none;
+  background: #005fa3;
+  padding: 8px 12px;
+  border-radius: 6px;
+  font-size: 14px;
+}
+
+main {
+  padding: 15px;
+  text-align: center;
+}
+
+main h2 {
+  font-size: 20px;
+  color: #0077cc;
+  margin-bottom: 10px;
+}
+
+footer {
+  text-align: center;
+  padding: 12px;
+  background: #0077cc;
+  color: white;
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+}
+.sentence-list {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  padding: 10px;
+}
+
+.sentence {
+  background: #ffffff;
+  border-left: 5px solid #0077cc;
+  padding: 10px;
+  border-radius: 5px;
+  box-shadow: 0 1px 4px rgba(0,0,0,0.1);
+}
+
+.sentence p {
+  font-size: 16px;
+  line-height: 1.5;
+}
+
+.sentence span {
+  color: #555;
+  font-size: 14px;
+}
+.vocab-list {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  padding: 10px;
+}
+
+.vocab {
+  background: #fff;
+  padding: 10px;
+  border-left: 5px solid #28a745;
+  border-radius: 5px;
+  box-shadow: 0 1px 4px rgba(0, 0, 0, 0.1);
+}
+
+.vocab p {
+  font-size: 16px;
+  color: #333;
+}
+.grammar-rule {
+  background: #fff;
+  padding: 12px;
+  margin: 10px;
+  border-left: 5px solid #ff9900;
+  border-radius: 6px;
+  box-shadow: 0 2px 6px rgba(0, 0, 0, 0.1);
+}
+
+.grammar-rule h3 {
+  font-size: 17px;
+  color: #cc6600;
+  margin-bottom: 5px;
+}
+
+.grammar-rule p, .grammar-rule ul {
+  font-size: 15px;
+  line-height: 1.6;
+  color: #333;
+}
+
+.grammar-rule ul {
+  padding-left: 20px;
+}
+/* 🔹 Attractive look for Tips Page 🔹 */
+
+body {
+  background: linear-gradient(to right, #e0f7fa, #f1f8e9);
+  font-family: 'Segoe UI', sans-serif;
+  color: #2c3e50;
+  margin: 0;
+  padding: 0;
+}
+
+header {
+  background-color: #0077cc;
+  color: white;
+  padding: 20px;
+  text-align: center;
+  border-bottom: 4px solid #1a5fb4;
+}
+
+header h1 {
+  font-size: 30px;
+  margin: 0;
+}
+
+nav {
+  margin-top: 10px;
+}
+
+nav a {
+  background-color: #1a5fb4;
+  color: white;
+  padding: 8px 14px;
+  margin: 5px;
+  text-decoration: none;
+  border-radius: 6px;
+  display: inline-block;
+  transition: 0.3s ease;
+}
+
+nav a:hover {
+  background-color: #144a91;
+}
+
+main {
+  padding: 25px;
+  max-width: 900px;
+  margin: auto;
+  background-color: white;
+  border-radius: 10px;
+  box-shadow: 0 4px 12px rgba(0,0,0,0.1);
+}
+
+h2 {
+  color: #1a5fb4;
+  font-size: 24px;
+  margin-bottom: 20px;
+  border-left: 5px solid #2c7be5;
+  padding-left: 10px;
+}
+
+ul {
+  padding-left: 20px;
+}
+
+ul li {
+  margin: 15px 0;
+  font-size: 18px;
+  padding: 10px;
+  background-color: #f0f9ff;
+  border-left: 4px solid #2c7be5;
+  border-radius: 4px;
+  box-shadow: 0 1px 3px rgba(0,0,0,0.05);
+}
+
+footer {
+  text-align: center;
+  padding: 15px;
+  background-color: #2c7be5;
+  color: white;
+  margin-top: 30px;
+  font-size: 14px;
+}
+/* 🎯 Practice Boxes Design */
+.practice-box {
+  background-color: #fefefe;
+  border-left: 5px solid #2c7be5;
+  border-radius: 8px;
+  margin-bottom: 25px;
+  padding: 15px 20px;
+  box-shadow: 0 3px 6px rgba(0,0,0,0.08);
+}
+
+.practice-box h3 {
+  margin-top: 0;
+  color: #2c7be5;
+}
+
+.practice-box ul {
+  list-style-type: "👉 ";
+  padding-left: 20px;
+}
+
+.practice-box ul li {
+  font-size: 17px;
+  margin: 8px 0;
+}
